@@ -1,0 +1,324 @@
+td,th{
+    vertical-align: middle  !important;
+    text-align: center;
+}
+
+.bg-alert{
+    background-color: #f8d7da !important;
+    border-color: #f5c6cb !important;
+}
+
+.bg-alert th, .bg-alert td{
+    border-color: #f8d7da !important;
+}
+
+.text-alert-danger{
+    color: #721c24 !important;
+}
+
+.bg-celeste{
+    background-color: #1B4062;
+    color: white;
+}
+
+img{
+    max-width: 100%;
+}
+
+#gracias{
+    height: calc(90vh - 120px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.radio-20{
+    border-radius: 20px;
+}
+
+.btn-grey{
+    background-color: #616161;
+    border-color: #616161;
+    color: white;
+}
+
+.btn-grey:hover{
+    background-color: #616161;
+    border-color: #616161;
+    color: white;
+}
+
+.form-control.is-invalid, .was-validated .form-control:invalid{
+    padding-right: 0 !important;
+}
+
+.no-stock{
+   cursor: not-allowed !important;
+}
+
+.pelota img{
+    width: 50%;
+    min-width: 200px;
+}
+
+.nav-item .nav-link, .navbar-text > a{
+    color: rgba(255, 255, 255, 0.58) !important;
+}
+
+.nav-item .active, .nav-item .nav-link:hover, .navbar-text > a:hover{
+    color: white !important;
+}
+
+a.active{
+    color: white !important;
+}
+
+.h80{
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 20px;
+}
+
+#vestuario .container, #checkout .container, #tienda .container{
+    background-color: rgba(255,255,255,0.98);
+    padding: 3rem;
+    border-radius: 20px;
+    box-shadow: -1px 10px 5px 0 rgba(0,0,0,0.5);
+    -webkit-box-shadow: -1px 10px 5px 0 rgba(0,0,0,0.5);
+    -moz-box-shadow: -1px 10px 5px 0 rgba(0,0,0,0.5);
+}
+
+#mi-perfil{
+    padding: 5rem;
+    background-image: url("../imgs/tunel-de-campeones.jpeg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#tienda{
+    padding: 5rem;
+    background-image: url("../imgs/tienda.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#vestuario{
+    padding: 5rem;
+    background-image: url("../imgs/vestuario.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#checkout{
+    padding: 10rem 5rem;
+    background-image: url("../imgs/checkout.jpeg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#checkout .col-sm-6{
+    background-color: rgba(255,255,255,0.98);
+    margin-bottom: 3rem !important;
+    padding-bottom: 2rem;
+    border-radius: 10px;
+}
+
+#stats .content {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#stats .icon-stat {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    padding: 15px;
+    margin-bottom: 1em;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+#stats .icon-stat-label {
+    display: block;
+    color: #999;
+    font-size: 13px;
+}
+#stats .icon-stat-value {
+    display: block;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+}
+#stats .icon-stat-visual {
+    position: relative;
+    top: 18px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 12px;
+}
+#stats .bg-primary {
+    color: #fff;
+    background: #d74b4b;
+}
+#stats .bg-secondary {
+    color: #fff;
+    background: #6685a4;
+}
+
+#stats .icon-stat-footer {
+    padding: 10px 0 0;
+    margin-top: 10px;
+    color: #aaa;
+    font-size: 12px;
+    border-top: 1px solid #eee;
+}
+
+#procesando > #formulario{
+    visibility: hidden !important;
+}
+
+#tienda .col-md-4{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group-addon{
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+}
+
+.input-group-addon > a{
+    color: #2b2b2b;
+}
+
+#editar-perfil{
+    background-image: url("../imgs/maradona-firma.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 5rem;
+}
+
+.lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+.lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border: 8px solid #4f4f4f;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #4f4f4f transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    .reversear{
+        flex-direction: column-reverse !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #tienda{
+        padding: 0;
+    }
+
+    #vestuario .container, #checkout .container, #tienda .container{
+        border-radius: 0;
+    }
+
+    #tienda .w-50{
+        width: 100% !important;
+    }
+
+    #editar-perfil, #mi-perfil, #principal, #vestuario, #checkout, #pelota, #ordenes{
+        padding: 0;
+    }
+
+    #editar-perfil .h80{
+        padding: 3em 0;
+    }
+
+    #mi-perfil .col-md-4{
+        text-align: center;
+    }
+
+    #mi-perfil .col-md-8{
+        padding: 0;
+        margin-bottom: 2em;
+    }
+
+    .table > :not(caption) > * > *{
+        padding: 1rem 0.5rem;
+    }
+
+    #navbarNav{
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    #tienda .list-unstyled li:first-of-type{
+        margin: 2em 0;
+    }
+
+    #vestuario .h80{
+        padding: 0;
+    }
+
+    #vestuario .col-lg-12:first-of-type .btn{
+        padding: 0;
+        width: 20px;
+    }
+
+    #vestuario .list-group .list-group-item div:first-of-type{
+        flex-direction: column-reverse;
+    }
+
+    #vestuario .h5, #vestuario h5{
+        font-size: 1rem;
+    }
+}
